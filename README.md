@@ -171,7 +171,8 @@ sometimes spoken. A separate style field plus transcription checks fixed it.
 
 - Fallout: New Vegas (English), Windows
 - Python 3.10+ and `pip install -r requirements.txt`
-- A Gemini API key ([Google AI Studio](https://aistudio.google.com/apikey)); DeepL, Microsoft
+- Gemini through Vertex AI (`"gemini_via": "vertex"`, works with the Google Cloud trial credit) or
+  an AI Studio API key ([Google AI Studio](https://aistudio.google.com/apikey)); DeepL, Microsoft
   Translator and Ollama are optional
 - To rebuild the vanilla plugins: [xTranslator](https://www.nexusmods.com/skyrimspecialedition/mods/134)
   (export only) and [FNVEdit / xEdit](https://github.com/TES5Edit/TES5Edit) 4.1.5 (interface strings and voice export)

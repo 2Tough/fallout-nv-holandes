@@ -1,4 +1,7 @@
 {
+  "gemini_via": "vertex",
+  "vertex_proyecto": "ID_DE_TU_PROYECTO_DE_GOOGLE_CLOUD",
+  "vertex_region": "global",
   "deepl_clave": "",
   "deepl_limite_total": 950000,
   "deepl_tipos": ["INFO", "DIAL", "QUST"],
@@ -15,7 +18,5 @@
   "ollama_modelo": "qwen2.5:7b",
   "ollama_max_caracteres": 40,
   "tts_rpm": 120,
-  "tts_hilos": 16,
-  "vertex_proyecto": "",
-  "vertex_region": "global"
+  "tts_hilos": 16
 }

@@ -29,16 +29,40 @@ player has to build it on their own PC. That is why this page exists instead of 
 | FNV Wild Card | installed with Wabbajack, and the game starts |
 | Windows + PowerShell | |
 | Python 3.10 or newer | [python.org](https://www.python.org/downloads/); tick *Add python.exe to PATH* |
-| A Google Gemini API key | [Google AI Studio](https://aistudio.google.com/apikey); paid tier recommended (the free tier's limits make a full run take days) |
+| Access to Gemini | **either** a Google Cloud project with Vertex AI (option A) **or** an AI Studio API key (option B), see below |
 | Disk space | ~1 GB for the translated plugins |
 
 You do **not** need xTranslator or FNVEdit for the text.
 
-**Cost:** a full translation of a Wild Card profile is around **20 USD** in Gemini API costs
-(about 5 million characters: the vanilla game, the DLCs and roughly 0.5 million characters added
-by Wild Card). Step 2 tells you the exact estimate for your profile before you spend anything.
-Every translated string is cached, so you never pay twice for the same text. Interrupting and
+**Cost:** a full translation of a Wild Card profile uses about **20 USD** of Gemini (about
+5 million characters: the vanilla game, the DLCs and roughly 0.5 million characters added by Wild
+Card). Step 2 tells you the exact estimate for your profile before you spend anything. Every
+translated string is cached, so you never pay twice for the same text. Interrupting and
 restarting is free.
+
+### Option A: Vertex AI, free with the Google Cloud trial (recommended)
+
+New Google Cloud accounts get a **300 USD credit** for 90 days. That credit pays for Gemini on
+**Vertex AI**, but **not** for AI Studio API keys. With Vertex, the text (and the optional voices
+in step 8) costs you nothing.
+
+1. Create a project at [console.cloud.google.com](https://console.cloud.google.com) and start the
+   free trial (a card is needed for verification; you are not charged automatically).
+2. Enable the **Vertex AI API** for the project.
+3. Install the [gcloud CLI](https://cloud.google.com/sdk/docs/install) and run once:
+   ```
+   gcloud auth application-default login
+   gcloud auth application-default set-quota-project YOUR_PROJECT_ID
+   ```
+4. In `config.json` (step 1): `"gemini_via": "vertex"` and `"vertex_proyecto": "YOUR_PROJECT_ID"`.
+   `gemini_clave` is not used.
+
+### Option B: AI Studio API key
+
+Get a key at [Google AI Studio](https://aistudio.google.com/apikey) and put it in `gemini_clave`
+(leave `"gemini_via": "aistudio"`). The paid tier costs about 20 USD for a full run. The free tier
+costs nothing but has daily limits, so a full run takes several days (the script continues where
+it stopped each day).
 
 ## 1. Set up the tools
 
@@ -49,17 +73,20 @@ restarting is free.
    cd C:\FNV_NL
    pip install -r requirements.txt
    ```
-3. Copy `config.example.json` to `config.json` and fill in:
+3. Copy `config.example.json` to `config.json` and fill in **one** of these:
    ```json
-   "deepl_clave": "",
-   "gemini_clave": "YOUR_GEMINI_API_KEY",
-   "gemini_modelo": "gemini-3.5-flash-lite",
-   "gemini_modelo_dialogos": "gemini-3.8-flash",
-   "gemini_rpm": 60
+   "gemini_via": "vertex",
+   "vertex_proyecto": "YOUR_PROJECT_ID",
    ```
-   `gemini_modelo_dialogos` handles dialogue and quests (better model), and `gemini_modelo`
-   handles everything else (cheaper). Keep `gemini_rpm` at 8 on the free tier.
-   **Never share `config.json`:** it contains your key.
+   (option A), or:
+   ```json
+   "gemini_via": "aistudio",
+   "gemini_clave": "YOUR_GEMINI_API_KEY",
+   ```
+   (option B). Leave the rest as it is. `gemini_modelo_dialogos` handles dialogue and quests
+   (better model), and `gemini_modelo` handles everything else (cheaper). On the AI Studio free
+   tier, lower `gemini_rpm` to 8.
+   **Never share `config.json`:** it can contain your key.
 4. Optional: edit `glosario.json`. It lists names that must not be translated (New Vegas, NCR,
    Mr. House...) and terms that must always be translated the same way.
 
@@ -177,10 +204,8 @@ shows the mod's translated text. Mostly these are typo fixes.
 `voces_wildcard.py` gives Dutch voices to dialogue that mods added with English audio, using the
 same voices and effects as the voice pack. It is for advanced users:
 
-- it uses **Vertex AI** (Google Cloud), not the AI Studio key: you need a Google Cloud project
-  with the Vertex AI API enabled, the [gcloud CLI](https://cloud.google.com/sdk/docs/install),
-  `gcloud auth application-default login`, and `"vertex_proyecto": "<your project id>"` in
-  `config.json`;
+- it always uses **Vertex AI**: set it up as in option A above, even if you translated the
+  text with an AI Studio key;
 - it needs [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) (`ffmpeg.exe` and `ffprobe.exe` on the
   PATH or next to the scripts);
 - it needs steps 3 and 5 to be done (it reads `WILDCARD\traducciones_nl.txt`).
