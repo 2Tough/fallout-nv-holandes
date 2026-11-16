@@ -5,7 +5,7 @@ including the interface strings, and generates Dutch voice-over with Gemini text
 also has a separate tool that translates a full **FNV Wild Card** modlist on the player's own PC.
 
 **Players:** you do not need anything from this repository. Download the finished plugins and
-voices from Nexus Mods: [Fallout New Vegas Nederlands translation](https://www.nexusmods.com/newvegas/mods/100515).
+voices from Nexus Mods: **(Nexus link)**.
 **Wild Card users:** see **[docs/WILDCARD.md](docs/WILDCARD.md)**.
 
 I built this as a personal project to learn Dutch by playing a game I know well, and as a
