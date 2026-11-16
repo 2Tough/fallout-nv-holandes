@@ -1,0 +1,21 @@
+{
+  "deepl_clave": "",
+  "deepl_limite_total": 950000,
+  "deepl_tipos": ["INFO", "DIAL", "QUST"],
+  "deepl_formalidad": "prefer_less",
+  "gemini_clave": "PEGA_AQUI_TU_CLAVE_DE_GEMINI",
+  "gemini_modelo": "gemini-3.5-flash-lite",
+  "gemini_modelo_dialogos": "gemini-3.8-flash",
+  "gemini_rpm": 60,
+  "gemini_thinking_budget": null,
+  "microsoft_clave": "PEGA_AQUI_TU_KEY_1_DE_AZURE",
+  "microsoft_region": "westeurope",
+  "microsoft_limite_mensual": 1950000,
+  "ollama_activado": false,
+  "ollama_modelo": "qwen2.5:7b",
+  "ollama_max_caracteres": 40,
+  "tts_rpm": 120,
+  "tts_hilos": 16,
+  "vertex_proyecto": "",
+  "vertex_region": "global"
+}

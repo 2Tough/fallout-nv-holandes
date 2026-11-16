@@ -1,0 +1,1104 @@
+{
+  "_explicacion": "Una entrada por tipo de voz del juego. 'voz': id de la voz de Gemini (ver voces_catalogo.json y la carpeta muestras_voces). 'estilo': instrucción corta en inglés para todo el personaje (p. ej. 'smug, fast-talking'); vacío suele dar mejor resultado. 'efecto': '', 'robot', 'robot_suave', 'mutante', 'necrofago' o 'radio'. 'modelo': gemini-3.8-flash-tts (principales) o gemini-3.8-flash-lite-tts (NPC, más barato). 'lineas' y 'ejemplo' son solo informativos. Si cambias 'voz', 'estilo' o 'modelo', ese tipo se vuelve a generar (y a pagar); 'efecto' es gratis.",
+  "voces_del_catalogo_holandes": true,
+  "tipos": {
+    "maleadult05": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 3562,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult01defaultb": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 3299,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult01default": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 3161,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult03": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 2928,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult02": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-5",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1847,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult08": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-6",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1807,
+      "ejemplo": "Wat kan ik voor je doen?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult02": {
+      "genero": "F",
+      "voz": "nl-nl-advisor-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1788,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult01default": {
+      "genero": "F",
+      "voz": "nl-nl-advisor-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1698,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult04": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-7",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1588,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult07": {
+      "genero": "F",
+      "voz": "nl-nl-assistant-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1567,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult03": {
+      "genero": "F",
+      "voz": "nl-nl-assistant-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1386,
+      "ejemplo": "Kan ik je helpen?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleold01": {
+      "genero": "M",
+      "voz": "nl-nl-concierge-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1364,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult06": {
+      "genero": "F",
+      "voz": "nl-nl-concierge-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1332,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult07": {
+      "genero": "M",
+      "voz": "nl-nl-storyteller-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1307,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult04": {
+      "genero": "F",
+      "voz": "nl-nl-csagent-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1237,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleold02": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1203,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult09": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-6",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1086,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleadult06": {
+      "genero": "M",
+      "voz": "nl-nl-training-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 979,
+      "ejemplo": "Zelfs als je wél van de Legion bent, ben je mijn Centurion niet! Ik ga niet 'door' op jouw bevel.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleuniquecass": {
+      "genero": "F",
+      "voz": "nl-nl-storyteller-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 892,
+      "ejemplo": "Mijn punt daarnet? Dat jij de Mojave kent, en dat het een keiharde plek is.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc04maleuniqueulysses": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-7",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 880,
+      "ejemplo": "The Divide barstte uit in een woest, rood vuur, terwijl de laatste boodschap van de twee Couriers met een boog de lucht "
+    },
+    "malegenericghoul": {
+      "genero": "M",
+      "voz": "nl-nl-training-2",
+      "estilo": "",
+      "efecto": "necrofago",
+      "lineas": 876,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult10": {
+      "genero": "F",
+      "voz": "nl-nl-storyteller-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 861,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleold01": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 812,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc01maleuniquedean": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-5",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 722,
+      "ejemplo": "Dat gehurk is een hel voor m'n knieën."
+    },
+    "maleghoul02": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-2",
+      "estilo": "",
+      "efecto": "necrofago",
+      "lineas": 718,
+      "ejemplo": "Je geintjes werken niet bij mij, gladhuid. En bij Jason werken ze evenmin.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleadult09": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 696,
+      "ejemplo": "Hallo en welkom in Gomorrah. Waar kan ik je vandaag mee helpen?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "creatureuniquemrhouse": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 604,
+      "ejemplo": "Als je Caesar's Legion op deze afstand al zo angstaanjagend vindt, stel je dan eens voor dat ze over de Strip razen.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "femaleuniqueveronica": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 572,
+      "ejemplo": "Hé. Daar zit wat.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "maleuniquearcade": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-7",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 533,
+      "ejemplo": "Hou daarmee op, alsjeblieft.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc01creatureuniquegod": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-6",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 515,
+      "ejemplo": "Ik ben de stem van het verstand. Ik slaap soms... beneden in de kelder, in de kooi. Nu ik wakker ben, gaat Dog terug de "
+    },
+    "femaleold03": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-5",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 512,
+      "ejemplo": "Oh. Nou, vooruit dan maar.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquecaesar": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-8",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 509,
+      "ejemplo": "Je bent van mij!",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc01maleuniqueelijah": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-7",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 497,
+      "ejemplo": "Jij. Je bent in de kluis... eindelijk. Na al die tijd. De Sierra Madre... van mij."
+    },
+    "femaleold02": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 467,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquebenny": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 465,
+      "ejemplo": "Ik kan niks vinden.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "robotvictor": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-4",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 465,
+      "ejemplo": "Berg dat op. En een beetje vlot graag.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "femaleadult11": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 456,
+      "ejemplo": "Dit zou die rads snel uit je lijf moeten spoelen.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquecraigboone": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 441,
+      "ejemplo": "Ik wil dat je iets voor me uitzoekt. Ik weet niet of er iets te vinden is, maar ik heb iemand nodig die het probeert.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "ghouluniqueraul": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-3",
+      "estilo": "",
+      "efecto": "necrofago",
+      "lineas": 434,
+      "ejemplo": "Oké, baas. Ik wacht hier wel gewoon, helemaal alleen, terwijl mijn zwaarbewapende metgezel buiten gehoorsafstand verdwij",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "femalegenericghoul": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-5",
+      "estilo": "",
+      "efecto": "necrofago",
+      "lineas": 433,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleghoul02": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-6",
+      "estilo": "",
+      "efecto": "necrofago",
+      "lineas": 432,
+      "ejemplo": "Wie is daar?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "malechild02": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-5",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 386,
+      "ejemplo": "Dekking!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "robotyesman": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-6",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 380,
+      "ejemplo": "Dus dat ga ik dus doen, en dat gaat wel even duren, dus het zal lijken alsof ik even offline ben. Maar maak je geen zorg",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "malechild01": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-7",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 377,
+      "ejemplo": "Dekking!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc01creatureuniquedog": {
+      "genero": "M",
+      "voz": "nl-nl-concierge-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 356,
+      "ejemplo": "Hnnnn. Dog volgt."
+    },
+    "maleuniquedocmitchell": {
+      "genero": "M",
+      "voz": "nl-nl-concierge-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 351,
+      "ejemplo": "Ga dat ergens anders doen!",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc03maleuniquemobius": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 341,
+      "ejemplo": "In de nacht van 23 oktober 2077 kregen de wetenschappers een antwoord dat al hun vragen voorgoed deed verstommen."
+    },
+    "femalechild01": {
+      "genero": "F",
+      "voz": "nl-nl-advisor-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 330,
+      "ejemplo": "Dekking!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquehanlon": {
+      "genero": "M",
+      "voz": "nl-nl-storyteller-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 325,
+      "ejemplo": "Ik kan niks vinden.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc02maleuniquejoshua": {
+      "genero": "M",
+      "voz": "nl-nl-storyteller-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 319,
+      "ejemplo": "Luister niet naar dit... ding! Zijn kreten zijn die van een dol beest dat vastzit in het struikgewas! Hij toonde geen ge"
+    },
+    "nvdlc03maleuniqueklein": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-4",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 305,
+      "ejemplo": "IK HOOR JE VOETEN MET PENISPUNTEN RONDSTAMPEN."
+    },
+    "maleuniquetheking": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 295,
+      "ejemplo": "Dus ik moet zomaar toegeven aan de eisen van elke willekeurige vreemdeling die hier binnenloopt, hè? Dacht het niet.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "maleuniquebigsal": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-6",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 284,
+      "ejemplo": "Hé, jij bent die vriend van Cachino. Moet je me ergens voor hebben?",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc02maleuniquefollowschalk": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 260,
+      "ejemplo": "Ga met voorspoed, vriend."
+    },
+    "nvdlc02maleuniquedaniel": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-6",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 253,
+      "ejemplo": "Dat is niet van jou!"
+    },
+    "creatureuniquelily": {
+      "genero": "F",
+      "voz": "nl-nl-advisor-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 241,
+      "ejemplo": "Ga weg! Ga weg!",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "creaturesupermutant": {
+      "genero": "M",
+      "voz": "nl-nl-training-2",
+      "estilo": "",
+      "efecto": "mutante",
+      "lineas": 237,
+      "ejemplo": "Misschien had stomme stem in hoofd wel gelijk?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "femaleuniquemoore": {
+      "genero": "F",
+      "voz": "nl-nl-assistant-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 232,
+      "ejemplo": "Er staat daarbuiten een veldslag op uitbreken. Het is krankzinnig om hier te komen vragen of onze mannen hun bepantserin",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "maleuniquepapakhan": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 227,
+      "ejemplo": "Ik kan niks vinden.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "femaleadult05": {
+      "genero": "F",
+      "voz": "nl-nl-assistant-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 227,
+      "ejemplo": "Waarmee kan ik je helpen?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc02femaleuniquewakingcloud": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-3",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 225,
+      "ejemplo": "Hij is de oorlogsleider van de White Legs, en de ergste slachter van allemaal. De stammen die hij heeft verpletterd zijn"
+    },
+    "nvdlc01femaleuniquechristine": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 217,
+      "ejemplo": "Klink ik zo? Het klinkt vreemd in mijn oren... moeilijk te zeggen. En het doet ook nog eens... verdomd veel pijn om te s"
+    },
+    "maleuniquelanius": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 205,
+      "ejemplo": "Bla.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc03maleuniquedocborous": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 197,
+      "ejemplo": "-De strijd raast voort!-"
+    },
+    "nvdlc03playersbrainvoice": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-3",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 193,
+      "ejemplo": "Ja, nou, geloof me, het omgekeerde is net zo waar. Lieve hemel, heb je je überhaupt wel gewassen sinds ze me uit je hebb"
+    },
+    "creatureuniquetabitha": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-7",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 189,
+      "ejemplo": "Ja, Rhonda.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "femalechild02": {
+      "genero": "F",
+      "voz": "nl-nl-concierge-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 189,
+      "ejemplo": "Dekking!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc03femaleuniquedala": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-3",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 187,
+      "ejemplo": "Ik heb de schuilplaats van de teddybeer ontdekt."
+    },
+    "maleuniquemrnewvegas": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-8",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 181,
+      "ejemplo": "We hebben wat nieuws voor je, het komt er zo aan.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "robotprotectron": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-2",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 178,
+      "ejemplo": "Ik heb een hardware- en software-upgrade nodig om uitgebreidere diensten te kunnen leveren.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquecolonelhsu": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-4",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 162,
+      "ejemplo": "Ik kan niks vinden.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc02maleuniquejed": {
+      "genero": "M",
+      "voz": "nl-nl-training-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 161,
+      "ejemplo": "Goeiedag, vriend. Mijn uitzendinkje gehoord, hè? Ja, je lijkt me wel het type."
+    },
+    "creaturesmartsm": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 155,
+      "ejemplo": "Wat een leuke verrassing dat je er bent. Ik ben er klaar voor om te beginnen, als jij dat ook bent.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "creatureuniquemarcus": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 154,
+      "ejemplo": "Dacht je daar zomaar mee weg te komen?",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "maleadult11": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-6",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 150,
+      "ejemplo": "Maar – maar het stadje heeft geen sheriff! Ik heb geen werkgever, en dat betekent dat ik geen baan heb.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "robotfestus": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-5",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 149,
+      "ejemplo": "Hij was de vorige dag op weg naar de saloon blijkbaar aangevallen door bandieten.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquepresident": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-7",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 144,
+      "ejemplo": "Mannen en vrouwen stapten naar voren om te zeggen: \"Ik zal de last dragen.\"",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "femaleadult08": {
+      "genero": "F",
+      "voz": "nl-nl-csagent-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 144,
+      "ejemplo": "Hé daar, lekkerding. Ik ben Dazzle. Wat kan ik voor je doen... of mét je doen? Je bent zo knap dat ik je misschien wel k",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc02maleuniquericky": {
+      "genero": "M",
+      "voz": "nl-nl-training-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 133,
+      "ejemplo": "Dat is niet van jou!"
+    },
+    "robotmisterhandy": {
+      "genero": "M",
+      "voz": "nl-nl-concierge-1",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 116,
+      "ejemplo": "En deze kleurrijke rakkers achter me zijn REPCONN's vroegste... vluchtexperimenten. Lees gerust de plakkaten en steek er",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "creaturelowintsm": {
+      "genero": "M",
+      "voz": "nl-nl-storyteller-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 110,
+      "ejemplo": "Daar ga je voor dood!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "maleuniquevulpe": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 103,
+      "ejemplo": "Waar te beginnen? Dat jullie zwak zijn en wij sterk? Zoveel was al bekend.",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "maleuniquejasonbright": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-6",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 102,
+      "ejemplo": "Wil je ons helpen, zwerver?",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "maleadult12": {
+      "genero": "M",
+      "voz": "nl-nl-training-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 94,
+      "ejemplo": "Geef ons gewoon een reden. Het is al veel te lang geleden dat ik mijn wapen heb afgevuurd.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc03stealthsuitvoice": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-5",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 92,
+      "ejemplo": "Jammer. We zijn gezien door robots. Als je teruggaat naar de terminal om de test te herstarten, zal ik het niet nog een "
+    },
+    "maleuniquenarrator": {
+      "genero": "M",
+      "voz": "nl-nl-training-2",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 86,
+      "ejemplo": "De Legate werd gekroond tot de nieuwe Caesar. Hij trok The Strip binnen alsof het een militair doelwit was, en vernietig",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc02femaleuniquestella": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-4",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 85,
+      "ejemplo": "Dat is niet van jou!"
+    },
+    "femaleadult12": {
+      "genero": "F",
+      "voz": "nl-nl-storyteller-1",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 83,
+      "ejemplo": "Jou heb ik hier nog nooit gezien. Wat moet je?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "robotrobobrain": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-2",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 76,
+      "ejemplo": "Ik wil niet onbeleefd zijn, maar je mag hier niet zijn. Je kunt maar beter vertrekken voordat ik gedwongen ben preventie",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "robotsentrybot": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-4",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 74,
+      "ejemplo": "Waarschuwing. Je hebt een beveiligde zone betreden. Dodelijk geweld kan zonder nadere waarschuwing worden toegepast.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc02maleuniquesaltuponwounds": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 73,
+      "ejemplo": "Dat is niet van jou!"
+    },
+    "maleadult10": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-7",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 69,
+      "ejemplo": "Wil je de toets nog een keer doen?",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc03maincomputervoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-6",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 56,
+      "ejemplo": "Begroetingen en felicitaties, meneer, en een bijzonder opgewekt welkom in the Sink."
+    },
+    "maleuniquebillyknight": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-8",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 46,
+      "ejemplo": "Ja? Hé, jij bent een goeie! Zeg hem dat ik het doe voor honderd per avond! Nee! Vijftig! Nee, twintig! Tien!",
+      "modelo": "gemini-3.8-flash-tts"
+    },
+    "nvdlc03femaleuniquechristine": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-5",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 44,
+      "ejemplo": "...had niet gedacht dat je terug zou keren."
+    },
+    "nvdlc03muggyvoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-7",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 39,
+      "ejemplo": "Jij daar! Hé, jij! Ja, jij! Heb je mokken?"
+    },
+    "nvdlc03toastervoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-concierge-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 38,
+      "ejemplo": "Hahaha! Ik ben weer online! Beef, wereld, voor mijn elektrische verwarmingsspiraal des doods!"
+    },
+    "nvdlc03lightswitch02voicesinkfemale": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-6",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 37,
+      "ejemplo": "Mmm... dat was een lekker tukkie, uh, hazenslaapje. Hoe lang was ik buiten westen?"
+    },
+    "roboteyebot": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-2",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 32,
+      "ejemplo": "Geldig gezichtspatroon gedetecteerd.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc04maleadult01": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-8",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 32,
+      "ejemplo": "Met alle respect, meneer, ik denk dat u een fout begaat. We zijn dicht bij een doorbraak met de Duraframe Eyebots, ik vo"
+    },
+    "nvdlc03jukeboxvoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-storyteller-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 31,
+      "ejemplo": "Luister eens naar dit heerlijke deuntje dat ik heb opstaan."
+    },
+    "nvdlc03bioresearchlabvoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 30,
+      "ejemplo": "Schatje, geloof geen woord van wat die gootsteen zegt. Ze liegt alles aan elkaar."
+    },
+    "nvdlc03autodocvoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-techagent-6",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 30,
+      "ejemplo": "Hmph... nou, kijk eens aan. De ouwe Auto-Doc is weer online. Goed dan, kom hier, laat me je eens bekijken."
+    },
+    "nvdlc03bookchutevoicesinkmale": {
+      "genero": "M",
+      "voz": "nl-nl-training-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 30,
+      "ejemplo": "Gegroet, Burger! Klaar om opruiend materiaal te ontvangen!"
+    },
+    "nvdlc03lightswitch01voicesinkfemale": {
+      "genero": "F",
+      "voz": "nl-nl-advisor-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 29,
+      "ejemplo": "Hemeltje. Gedeeltelijke functionaliteit hersteld - dat is verre van optimaal."
+    },
+    "nvdlc02sorrowsmale": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-4",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 24,
+      "ejemplo": "Thee zal wachten. Ik? Misschien niet."
+    },
+    "nvdlc03sinkvoicesinkfemale": {
+      "genero": "F",
+      "voz": "nl-nl-advisor-3",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 19,
+      "ejemplo": "Kom gerust terug wanneer je wat wilt drinken. Of om... schoongemaakt te worden."
+    },
+    "nvdlc04robotede": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-2",
+      "estilo": "",
+      "efecto": "robot",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 15,
+      "ejemplo": "Voor zijn vertrek stuurde hij een gecodeerd signaal naar zijn origineel in de Mojave, waarmee hij doorgaf wat de Koerier"
+    },
+    "robotede": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-4",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 14,
+      "ejemplo": "ED-E bleef vergeten achter in de winkel van Johnson Nash, totdat hij werd gerepareerd door een andere koerier, die hem z",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc02deadhorsefemale": {
+      "genero": "F",
+      "voz": "nl-nl-techagent-5",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 10,
+      "ejemplo": "Haha. Grappige owslandr. Misschien straks dode owslandr."
+    },
+    "nvdlc03maleuniquedoco": {
+      "genero": "M",
+      "voz": "nl-nl-training-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 9,
+      "ejemplo": "Wetenschap is een lange, gestage opmars naar de toekomst. Wat een plotselinge gebeurtenis lijkt, wordt vaak pas jaren, o"
+    },
+    "nvdlc04femaleadult01": {
+      "genero": "F",
+      "voz": "nl-nl-assistant-2",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 7,
+      "ejemplo": "Ah, Whitley, daar ben je. Bevelen van Colonel Autumn: hij vindt dat het Eyebot Duraframe-project niet snel genoeg voorui"
+    },
+    "nvdlc04malechild01": {
+      "genero": "M",
+      "voz": "nl-nl-advisor-4",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 7,
+      "ejemplo": "RALPHIE, snel! Als die gemene ouwe General Winters je te pakken krijgt, kom je nooit meer thuis!"
+    },
+    "robotmistergutsy": {
+      "genero": "M",
+      "voz": "nl-nl-training-1",
+      "estilo": "",
+      "efecto": "robot",
+      "lineas": 6,
+      "ejemplo": "De cybernetische hond, geslacht: vrouwelijk, aanduiding: ROXIE, zat op haar wachtpost in X-8.",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "creatureferalghoul": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-1",
+      "estilo": "",
+      "efecto": "necrofago",
+      "lineas": 6,
+      "ejemplo": "Doden!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc02whitelegsfemale": {
+      "genero": "F",
+      "voz": "nl-nl-tutor-1",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 4,
+      "ejemplo": "Shit!"
+    },
+    "nvdlc02whitelegsmale": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-7",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 4,
+      "ejemplo": "Shit!"
+    },
+    "nvdlc03x8robobrain": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-2",
+      "estilo": "",
+      "efecto": "robot",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 4,
+      "ejemplo": "Neeeeeeeeee..."
+    },
+    "playervoicemale": {
+      "genero": "M",
+      "voz": "nl-nl-assistant-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1,
+      "ejemplo": "Oef!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "playervoicefemale": {
+      "genero": "F",
+      "voz": "nl-nl-storyteller-3",
+      "estilo": "",
+      "efecto": "",
+      "lineas": 1,
+      "ejemplo": "Oef!",
+      "modelo": "gemini-3.8-flash-lite-tts"
+    },
+    "nvdlc02deadhorsemale": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-8",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-lite-tts",
+      "lineas": 1,
+      "ejemplo": "{\"Kom hier!\\\"\")Hah go!"
+    },
+    "nvdlc03maleuniqueulysses": {
+      "genero": "M",
+      "voz": "nl-nl-tutor-4",
+      "estilo": "",
+      "efecto": "",
+      "modelo": "gemini-3.8-flash-tts",
+      "lineas": 1,
+      "ejemplo": "...had niet gedacht dat je terug zou keren."
+    }
+  }
+}

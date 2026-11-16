@@ -1,0 +1,15 @@
+{
+  "_explicacion": "Cada término de la izquierda se reemplaza siempre por el de la derecha y el traductor no lo toca. Si izquierda y derecha son iguales, el término no se traduce. Distingue mayúsculas: añade variantes si hace falta (por ejemplo 'caps' y 'Caps').",
+  "terminos": {
+    "NCR": "NCR",
+    "Mr. House": "Mr. House",
+    "New Vegas": "New Vegas",
+    "Mojave": "Mojave",
+    "Pip-Boy": "Pip-Boy",
+    "Vault-Tec": "Vault-Tec",
+    "Caesar's Legion": "Caesar's Legion",
+    "Courier": "Koerier",
+    "caps": "doppen",
+    "Faction": "Factie"
+  }
+}
